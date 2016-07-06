@@ -1,0 +1,112 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">    
+
+<!--Bootstrap CSS-->
+    <link rel="stylesheet" href="bootstrap.min.css"> 
+
+<!--Custom CSS-->
+     <link rel="stylesheet" href="styles.css">  
+  
+</head>
+<body>
+     
+    <section id="cover">
+        <div id="cover-caption">
+            <div class="container">
+                <div class="col-sm-10 col-sm-offset-1">
+                    <h1>FIFA Euro 2016 Twitter Analysis</h1>
+                    <h3>Germany vs. Italy Quarter-Finals</h3>
+                    <h3>02-July-2016</h3>    
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<section id="intro">
+    <div class="section-content">
+        <div class="container">
+            <h2>Introduction</h2>
+            <p>Soccer is one of the most popular sports played and/or watched globally. The 2016 FIFA Euro Cup is a major soccer sporting event which occurs every 4 years. The Quarter-Final is the beginning of the knockout stages, where teams are eliminated from single-leg matches. Germany is the world-cup champions and is one of the favoured teams to win the cup. However, Italy has not lost to Germany in a competitive match previously. Thus, the 2016 Euro Quarter-Final match played at the Stade de Bordeaux, Bordeaux, France was one the of most anticipated sporting events. Twitter is a popular social media platform, which allows individuals to express thoughts or ideas on the internet, and these so called “tweets” can be viewed by others. The advent of social media has allowed for the systematic documentation of peoples’ thoughts around the world.</p>
+            
+            <h2>Objective</h2>
+            <p>To describe the behaviour of tweets about Germany and Italy before, during, and after the 2016 Euro Quarter-Final match.</p>
+            
+            <h2>Rationale</h2>
+            <p>Twitter arguably has the potential to describe the global human thought psyche regarding major sporting events such as the Euro 2016. Since the Quarter-finals match is a highly anticipated major sporting event, there may be a large surge of tweets containing the terms “Germany” and “Italy” around the event time period.</p>
+            
+            <h2>Methods</h2>
+            <p>The Tweepy python library was used to access and mine tweets from the Twitter Streaming API. Tweets containing the terms ‘germany’ and/or ‘italy’ were collected from 01-July-2016 08:00 GMT to 03-July-2016 09:00 GMT. The resultant JSON formatted text file was parsed for time stamps and whether tweets were only “germany”, only “italy, or both. The Pandas python library was used to tabulate the number of each respective tweet into 1 minute intervals. The Vincent python library was used to plot the series.
+            </p>
+            
+            <h2>Hypothesis</h2>
+            <p>The number of tweets may reflect the hype (before), the highlight moments (during), and the lingering excitement (after) for each country’s team.</p>
+            
+            <h2>Results</h2>
+         
+            <img src="tweet.png" /> <!-- Add js script for opening image-->
+        </div></div>
+            </section>
+ 
+<section id="conclusions">
+    <div class="section-content">
+        <div class="container">
+                    <h2>Conclusions</h2>
+                    <p class="lead">
+                        
+                    </p>
+                    
+                    <h2>Limitations</h2>
+                    <p>Tweets unrelated to the soccer event may occur with the search terms. However, since no major incident occurred during this time period in either country, this noise may be limited for both countries. Twitter may also only be a luxury for individuals with electronic devices and/or a platform for a specific demographic (younger generation).</p>
+                
+        </div>
+    </div>
+</section>
+
+<!--
+<footer id="footer-main">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <p>Copyright?</p>
+                <p>coded by <a href="">Tuna</a></p>
+            </div>
+            <div class="col-sm-3">
+                <ul class="list-unstyled">
+                    <li><a href="">home</a></li>
+                    <li><a href="">what we do</a></li>
+                    <li><a href="">latest news</a></li>
+                    <li><a href="">about me</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-3">
+                <ul class="list-unstyled">
+                    <li><a href="">facebook</a></li>
+                    <li><a href="">twitter</a></li>
+                    <li><a href="">youtube</a></li>
+                    <li><a href="">linkedin</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-3">
+                <h5>a tiny header</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae odit quidem similique quos eos voluptatem impedit, totam ad placeat laudantium, eius dolore et incidunt. Cum animi deleniti facilis sit dolorem.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+--> 
+
+<!--jQuery, Bootstrap JS-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+
+</body> 
+
+
+</html>
