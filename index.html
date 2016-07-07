@@ -19,11 +19,13 @@
         <div id="cover-caption">
             <div class="container">
                 <div class="col-sm-10">
-                  <h1 class="display-3">FIFA Euro 2016 Twitter Analysis</h1>
+                  <h1 class="display-3">UEFA Euro 2016 Twitter Analysis</h1>
                   <hr class="m-y-2">
-                  <p class="lead">Germany vs. Italy Quarter-Finals | 02-July-2016 &nbsp;&nbsp;&nbsp;                 
-                    <a class="btn btn-primary btn-sm" href="#results" role="button">See Results</a>
+                  <p>France vs. Germany Semi-Finals 07-July-2016 | Portugal vs. ? Finals 10-Jul-2016
                   </p>
+                  <p class="lead">Germany vs. Italy Quarter-Finals | 02-Jul-2016 &nbsp;&nbsp;&nbsp;                 
+                    <a class="btn btn-primary btn-sm" href="#results" role="button">See Results</a>  </p>
+
                 </div>
             </div>
         </div>
@@ -43,7 +45,7 @@
             <p>Twitter arguably has the potential to describe the global human thought psyche regarding major sporting events such as the Euro 2016. Since the Quarter-finals match is a highly anticipated major sporting event, there may be a large surge of tweets containing the terms “Germany” and “Italy” around the event time period.</p>
             
             <h2>Methods</h2>
-            <p>The Tweepy python library was used to access and mine tweets from the Twitter Streaming API. Tweets containing the terms ‘germany’ and/or ‘italy’ were collected from 01-July-2016 08:00 GMT to 03-July-2016 09:00 GMT. The resultant JSON formatted text file was parsed for time stamps and whether tweets were only “germany”, only “italy, or both. R and the ggplot2 package was used to visualize these time stamps over 2 hour intervals in a graph.
+            <p>The Tweepy python library was used to access and mine tweets from the Twitter Streaming API. Tweets containing the terms ‘germany’ and/or ‘italy’ were collected from 01-July-2016 08:00 GMT to 03-July-2016 09:00 GMT. The resultant JSON formatted text file was parsed for time stamps and whether tweets were only “germany”, only “italy, or both. R and the ggplot2 package was used to visualize a sum of these time stamps over one minute intervals in a graph.
             </p>
             
             <h2>Hypothesis</h2>
@@ -56,7 +58,7 @@
               </a>
             
             
-            <p><b>Figure 1.</b> shows the total number of tweet per minute. There were a total of 7 identifiable peak moments with high number of tweets: </p>
+            <p><b>Figure 1.</b>  Shows the total number of tweets per minute. There were a total of 7 identifiable peak moments with high number of tweets: </p>
 
             <ul class="list-group">
                 <li class="list-group-item"><b>Peak at Jul 01, 10:00 GMT:</b> Unrelated news</li>
