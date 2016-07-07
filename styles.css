@@ -15,17 +15,17 @@ img {
 #cover {
     background: #222 url('bg.jpg') top center no-repeat;
     color: white;
-    text-align: center;
+    text-align: left;
     display: flex;
-    align-items: center;
+    align-items: right;
 }
 
 #writeup {
     background-color: white;
 }
 
-#writeup ul {
-    list-style-image: none;
+#writeup p {
+    padding-bottom: 20px;
 }
 
 #cover-caption {
