@@ -13,7 +13,8 @@ img {
 /* cover */
 
 #cover {
-    background: #222 url('bg.jpg') top center no-repeat;
+    /*background: #222 url('bg.jpg') top center no-repeat;*/
+    background: #222;
     color: white;
     text-align: left;
     display: flex;
@@ -24,8 +25,12 @@ img {
     background-color: white;
 }
 
+#writeup b {
+    color:
+}
+
 #writeup p {
-    padding-bottom: 20px;
+    padding-bottom: 1.25rem;
 }
 
 #cover-caption {
@@ -41,6 +46,10 @@ img {
     color: white;
 }
 
+#conclusions p {
+    padding-bottom: 1.25rem;
+}
+
 .about-text {
     background: rgba(0,0,0,0.8);
     color: white;
@@ -48,8 +57,8 @@ img {
 }
 
 #footer-main {
-    background: #222;
+    background-color: #666;
     color: white;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     padding: 2.5rem 0;
 }
