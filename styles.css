@@ -20,9 +20,14 @@ img {
     align-items: center;
 }
 
-#intro {
+#writeup {
     background-color: white;
 }
+
+#writeup ul {
+    list-style-image: none;
+}
+
 #cover-caption {
     width: 100%;
 }
