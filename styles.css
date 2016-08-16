@@ -13,12 +13,10 @@ img {
 /* cover */
 
 #cover {
-    /*background: #222 url('bg.jpg') top center no-repeat;*/
-    background: #222;
+    background: #222 url('img/JDS_header001.jpg') top center no-repeat;
     color: white;
     text-align: left;
     display: flex;
-    align-items: right;
 }
 
 #writeup {
