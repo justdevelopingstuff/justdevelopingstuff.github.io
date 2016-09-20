@@ -1,0 +1,153 @@
+  <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="JustDevelopingStuff Tech: Building an agenda app">
+    <meta name="author" content="JustDevelopingStuff">
+
+    <title>Just Developing Stuff</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles & Fonts -->
+    <link href="../assets/css/carousel.css" rel="stylesheet">
+    <link href="../assets/css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
+    
+  </head>
+  <body>
+
+    <nav class="navbar navbar-static-top navbar-light bg-faded">
+      <a href="#" class="navbar-brand"><img src="../assets/img/logo.png" alt="JustDevelopingStuff.logo" height="52"></a>
+      <ul class="nav navbar-nav pull-xs-right">
+        <li class="nav-item">
+          <a class="nav-link" href="../index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+      </ul>
+    </nav>
+
+
+  
+<section id="cover">
+     <div id="cover-caption">
+      <div class="container-fluid">
+        
+                  <h1>Projects</h1>
+                  <hr>
+                  <h3>UEFA Euro 2016 Games</h3>
+                </div>
+            </div>
+    </section>
+
+<!-- START THE FEATURETTES -->
+<section id="featured">
+<div class="container-fluid">
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">For the Data Lovers</h2>
+          <p class="lead"><span class="text-muted">We have beautiful graphs.</span> Stay tuned for the results of a twitter sentiment analysis of the Euro Cup 2016 Finals game.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-fluid m-x-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+      </div>
+    </div></section>
+<!--
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 push-md-5">
+          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5 pull-md-7">
+          <img class="featurette-image img-fluid m-x-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-fluid m-x-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+      </div>
+
+    </div>
+      </section><!-- /END THE FEATURETTES -->
+
+          
+    
+<!-- FOOTER -->
+      <footer>
+       <div class="container-fluid">
+       <div class="row">
+       <div class="col-sm-3">
+          <p>&copy; 2015 JustDevelopingStuff</p>
+          </div>
+        <div class="col-sm-3">
+            <ul class="list-unstyled">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="../about.html">About</a></li>
+            </ul>
+        </div>
+        <div class="col-sm-3">
+           <ul class="list-unstyled">
+                    <li class="indent"><a href="euro-2016-tweet-analysis">Twitter Analysis</a></li>
+                    <li class="indent"><a href="TunaTech.html">Youtube</a></li>
+                <li class="indent"><a href="agenda-app.html">Agenda App</a></li></ul>
+        </div>
+        <div class="col-sm-3"><p class="pull-sm-right"><a href="#">Back to top</a></p></div>
+          </div></div>
+      </footer>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script>$(document).ready(function(){
+      // Add scrollspy to <body>
+      $('body').scrollspy({target: ".navbar", offset: 50});
+
+      // Add smooth scrolling on all links inside the navbar
+      $("a").on('click', function(event) {
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        }  // End if
+      });
+    });
+</script>
+  </body>
+</html>

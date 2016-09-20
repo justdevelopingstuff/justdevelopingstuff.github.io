@@ -1,12 +1,13 @@
 Purpose
 =======
-Present the LIVE RESULTS graph of tweets for the France vs Portugal finals game.
+Present JustDevelopingStuff's projects online and share links to our source code on GitHub.
 
 ###Creators
 Programmed and presented by the JDS (JustDevelopingStuff) Team. 
 
-### Tools and Skills Used
-R, ggplot, Python, Web scraping, JSON Parsing, HTML5/CSS3, Bootstrap.
+### ToolsUsed
+Website: HTML/CSS3, Bootstrap4, Gimp, Adobe Photoshop & Illustrator, Brackets
+Soccer Tweets Analysis: R, ggplot, Python, Web scraping, JSON Parsing, HTML5/CSS3, Bootstrap.
 
 ### Work in Progress
 * Sentiment Analysis of all three games

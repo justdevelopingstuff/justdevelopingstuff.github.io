@@ -1,0 +1,212 @@
+/* Primary Color Scheme
+Feather #77C9D4
+Marine #57BC90
+Forest #015249
+Sleek Gray #A5A5AF
+*/
+
+html, body {
+    height:100%;
+    font-family: "Roboto", sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-brand {
+    padding-left: 0.5rem;
+}
+
+footer{
+    background-color: #015249;
+    color:#fff;
+    margin: 0 auto;
+    padding: 0.5rem 0;
+    font-size: 0.7rem;
+}
+
+footer a {
+    color:#fff;
+    text-decoration: none;
+}
+
+footer .minilinks {
+    font-size: 0.55rem;
+}
+
+footer .indent {
+    padding-left: 1.5rem;
+}
+footer a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.navbar .nav-item .nav-link {
+    color: #A5A5AF;
+    font-weight: 500;
+    padding: 1rem;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+.navbar .nav-item .nav-link:hover {
+    background-color: #77c9d4;
+    color: #fff;
+}
+
+.media-object {
+    height: 240px;
+    width: 360px;
+}
+
+.carousel-item {
+    background-color: #57bc90;
+}
+
+.blue {
+    background-color: #77c9d4;
+}
+
+.carousel-caption h1 {
+    font-family: "Roboto Slab", serif;
+}
+
+.carousel-caption p {
+    font-family: "Roboto", sans-serif;
+}
+
+.btn-link {
+    background-color: #015249;
+    color: #fff;
+    border-radius: 0.25rem;
+}
+
+.btn-link:hover {
+    background-color: #01796b; 
+    color: #fff;
+    text-decoration: none;
+    border-radius: 0.25rem;
+}
+
+#header {
+    background: #77c9d4 url('../img/uefa2016.png') center center no-repeat;
+    color: #000;
+    background-size: cover;
+    font-family: 'Roboto Slab', serif;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.overlay{
+    background: rgba(0,0,0, 0.15);
+    border-radius: 0.5rem;
+    padding: 1.875rem;
+}
+
+#cover {
+    background-color: #77C9D4;
+    text-align: right;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+#app {
+    background: #57BC90 url('../img/JDS_header003.jpg') top center no-repeat;
+    text-align: left;
+    display:flex;
+    align-items: flex-end;
+    color: #fff;
+    padding-bottom: 2rem;
+}
+
+#cover, #app {
+    background-size: cover;
+    height: 100%;
+}
+
+.cover-content {
+    font-family: 'Roboto Slab', sans-serif;
+    width: 100%;
+}
+
+
+#analysis {
+    text-align: left;
+}
+
+#other {
+    text-align: right;
+}
+
+#analysis, #other {
+    background: #fff;
+    display:flex;
+    align-items: center;
+    height: 60%;
+    color: #000;
+    margin: 3rem 0;
+}
+
+#about {
+    background: #fff url('../img/oneplus2.jpg') center center no-repeat;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.about-text {
+    background: rgba(255,255,255,0.65);
+    color: #000;
+    border-radius: 0.25rem;
+    padding: 1.5rem;
+}
+
+#games {
+    margin: 3rem 0;
+}
+
+.section-content h1 {
+    color: #57BC90;
+    font-family: "Roboto Slab", serif;
+    text-shadow: 1px 1px #ddd;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.section-content h2 {
+    padding-top: 2rem;
+}
+
+.featurette-divider {
+  padding: 0;
+  margin-top: 5rem;
+}
+
+.list-group {
+    padding-bottom: 1rem;
+}
+
+#conclusion {
+    min-height: 30rem;
+    padding-bottom: 3rem;
+    margin-bottom: 0;
+}
+
+/* Media Queries */
+
+@media screen and ( min-width : 991px ) {
+    
+    .feature-content {
+        display: flex;
+        align-items: center;
+    }
+    
+}

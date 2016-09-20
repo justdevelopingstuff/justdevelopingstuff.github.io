@@ -1,0 +1,196 @@
+  <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="JustDevelopingStuff Tech: Building an agenda app">
+    <meta name="author" content="JustDevelopingStuff">
+
+    <title>Carousel Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles & Fonts -->
+    <link href="assets/css/carousel.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
+    
+  </head>
+  <body>
+
+    <nav class="navbar navbar-static-top navbar-light bg-faded">
+      <a href="#" class="navbar-brand"><img src="assets/img/logo.png" alt="JustDevelopingStuff.logo" height="52"></a>
+      <ul class="nav navbar-nav pull-xs-right">
+        <li class="nav-item">
+          <a class="nav-link" href="../index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../about.html">About</a>
+        </li>
+      </ul>
+    </nav>
+
+
+  
+<section id="cover">
+        <div id="cover-caption">
+            <div class="container">
+                <div class="col-sm-10">
+                  <h1>UEFA Euro 2016 Twitter Analysis</h1>
+                  <hr>
+                  
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section id="header">
+    <div class="container">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <h2>Germany vs Italy</h2>
+          <p>Quarter-Finals </p>
+          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <h2>France vs Germany</h2>
+          <p>Semi-Finals 07-July-2016</p>
+          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <h2>Portugal vs France</h2>
+          <p>Finals</p>
+          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+    </div>
+</section>
+
+<section id="writeup">
+    <div class="section-content">
+        <div class="container">
+            <h1>Germany vs. Italy Quarter-Finals | 02-Jul-2016</h1>
+            <h2>Introduction</h2>
+            <p>Soccer is one of the most popular sports played and/or watched globally. The 2016 FIFA Euro Cup is a major soccer sporting event which occurs every 4 years. The Quarter-Final is the beginning of the knockout stages, where teams are eliminated from single-leg matches. Germany is the world-cup champions and is one of the favoured teams to win the cup. However, Italy has not lost to Germany in a competitive match previously. Thus, the 2016 Euro Quarter-Final match played at the Stade de Bordeaux, Bordeaux, France was one the of most anticipated sporting events. Twitter is a popular social media platform, which allows individuals to express thoughts or ideas on the internet, and these so called “tweets” can be viewed by others. The advent of social media has allowed for the systematic documentation of peoples’ thoughts around the world.</p>
+            
+            <h2>Objective</h2>
+            <p>To describe the behaviour of tweets about Germany and Italy before, during, and after the 2016 Euro Quarter-Final match.</p>
+            
+            <h2>Rationale</h2>
+            <p>Twitter arguably has the potential to describe the global human thought psyche regarding major sporting events such as the Euro 2016. Since the Quarter-finals match is a highly anticipated major sporting event, there may be a large surge of tweets containing the terms “Germany” and “Italy” around the event time period.</p>
+            
+            <h2>Methods</h2>
+            <p>The Tweepy python library was used to access and mine tweets from the Twitter Streaming API. Tweets containing the terms ‘germany’ and/or ‘italy’ were collected from 01-July-2016 08:00 GMT to 03-July-2016 09:00 GMT. The resultant JSON formatted text file was parsed for time stamps and whether tweets were only “germany”, only “italy, or both. R and the ggplot2 package was used to visualize a sum of these time stamps over one minute intervals in a graph.
+            </p>
+            
+            <h2>Hypothesis</h2>
+            <p>The number of tweets may reflect the hype (before), the highlight moments (during), and the lingering excitement (after) for each country’s team.</p>
+            
+            <h2 id="results">Results</h2>
+
+              <a href="tweet.png" target="_blank">
+                    <img src="tweet.png" padding-bottom="50px"/>
+              </a>
+            
+            
+            <p><b>Figure 1.</b>  Shows the total number of tweets per minute. There were a total of 7 identifiable peak moments with high number of tweets: </p>
+
+            <ul class="list-group">
+                <li class="list-group-item"><b>Peak at Jul 01, 10:00 GMT:</b> Unrelated news</li>
+                <li class="list-group-item"><b>Peak at Jul 01, 21:00 GMT:</b> Germany/Italy predictions for EURO2016 Finals</li>
+                <li class="list-group-item"><b>Peak at Jul 02, 18:58 GMT:</b> Anthems and commencement of game</li>
+                <li class="list-group-item"><b>Peak at Jul 02, 20:25 GMT:</b> Ozil scores for Germany</li>
+                <li class="list-group-item"><b>Peak at Jul 02, 20:38 GMT:</b> Penalty Shootout</li>
+                <li class="list-group-item"><b>Peak at Jul 02, 21:49-22:00 GMT:</b> Game finishes with Germany emerging as winner; congratulatory comments to Italy</li>
+                <li class="list-group-item"><b>Peak at Jul 03, 08:30 GMT</b> Italian Coach Antonio Conte announcement</li>
+                </ul>
+            
+            <p>There were notably more tweets using the keywords “#italy, Italy” than “#germany, germany”.</p> 
+            
+            
+        </div></div>
+            </section>
+ 
+<section id="conclusion">
+    <div class="section-content">
+        <div class="container">
+                    <h2>Conclusion</h2>
+                    <p class="lead">
+                        Overall, analyzing tweets of the country names in the EURO 2016 Semi-Final game allowed for a good approximation of the pre-game hype, during game key moments, and the aftermath excitement.
+                    </p>
+                    
+                    <h2>Limitations</h2>
+                    <p>Tweets unrelated to the soccer event may occur with the search terms. However, since no major incident occurred during this time period in either country, this noise may be limited for both countries. Twitter may also only be a luxury for individuals with electronic devices and/or a platform for a specific demographic (younger generation).</p>
+                
+        </div>
+    </div>
+</section>
+          
+    
+<!-- FOOTER -->
+      <footer>
+       <div class="container-fluid">
+       <div class="row">
+       <div class="col-sm-3">
+          <p>&copy; 2015 JustDevelopingStuff</p>
+          </div>
+        <div class="col-sm-3">
+            <ul class="list-unstyled">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="../about.html">About</a></li>
+            </ul>
+        </div>
+        <div class="col-sm-3">
+           <ul class="list-unstyled">
+                    <li class="indent"><a href="euro-2016-tweet-analysis">Twitter Analysis</a></li>
+                    <li class="indent"><a href="TunaTech.html">Youtube</a></li>
+                <li class="indent"><a href="agenda-app.html">Agenda App</a></li></ul>
+        </div>
+        <div class="col-sm-3"><p class="pull-sm-right"><a href="#">Back to top</a></p></div>
+          </div></div>
+      </footer>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script>$(document).ready(function(){
+      // Add scrollspy to <body>
+      $('body').scrollspy({target: ".navbar", offset: 50});
+
+      // Add smooth scrolling on all links inside the navbar
+      $("a").on('click', function(event) {
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        }  // End if
+      });
+    });
+</script>
+  </body>
+</html>
