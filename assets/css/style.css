@@ -28,7 +28,7 @@ footer{
     color:#fff;
     margin: 0 auto;
     padding: 0.5rem 0;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
 }
 
 footer a {
@@ -37,7 +37,7 @@ footer a {
 }
 
 footer .minilinks {
-    font-size: 0.55rem;
+    font-size: 0.6rem;
 }
 
 footer .indent {
@@ -60,10 +60,6 @@ footer a:hover {
     color: #fff;
 }
 
-.media-object {
-    height: 240px;
-    width: 360px;
-}
 
 .carousel-item {
     background-color: #57bc90;
@@ -99,7 +95,7 @@ footer a:hover {
     color: #000;
     background-size: cover;
     font-family: 'Roboto Slab', serif;
-    padding: 4rem 0;
+    padding: 1rem 0;
     text-align: center;
 }
 
@@ -136,21 +132,17 @@ footer a:hover {
     width: 100%;
 }
 
-
-#analysis {
-    text-align: left;
-}
-
 #other {
-    text-align: right;
+    overflow: hidden;
 }
 
 #analysis, #other {
     background: #fff;
-    display:flex;
-    align-items: center;
     height: 60%;
+    display: flex;
+    align-items: center;
     color: #000;
+    text-align: left;
     margin: 3rem 0;
 }
 
@@ -170,15 +162,15 @@ footer a:hover {
 }
 
 #games {
-    margin: 3rem 0;
+    margin: 1.85rem 0;
 }
 
 .section-content h1 {
     color: #57BC90;
     font-family: "Roboto Slab", serif;
     text-shadow: 1px 1px #ddd;
-    margin-top: 3rem;
-    margin-bottom: 2rem;
+    margin-top: 1.85rem;
+    margin-bottom: 1rem;
 }
 
 .section-content h2 {

@@ -7,13 +7,14 @@
     <meta name="description" content="JustDevelopingStuff Tech: Building an agenda app">
     <meta name="author" content="JustDevelopingStuff">
 
-    <title>Carousel Template for Bootstrap</title>
+    <title>JDS Presents Soccer Tweets Sentiment Analysis</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles & Fonts -->
     <link href="../assets/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
     
   </head>
@@ -24,12 +25,6 @@
       <ul class="nav navbar-nav pull-xs-right">
         <li class="nav-item">
           <a class="nav-link" href="../index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../index.html#analysis">Projects</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../about.html">About</a>
         </li>
       </ul>
     </nav>
@@ -87,7 +82,7 @@
             
             <h2>Rationale</h2>
             <p>Twitter arguably has the potential to describe the global human thought psyche regarding major sporting events such as the Euro 2016. Since the Quarter-finals match is a highly anticipated major sporting event, there may be a large surge of tweets containing the terms “Germany” and “Italy” around the event time period.</p>
-            
+            -
             <h2>Methods</h2>
             <p>The Tweepy python library was used to access and mine tweets from the Twitter Streaming API. Tweets containing the terms ‘germany’ and/or ‘italy’ were collected from 01-July-2016 08:00 GMT to 03-July-2016 09:00 GMT. The resultant JSON formatted text file was parsed for time stamps and whether tweets were only “germany”, only “italy, or both. R and the ggplot2 package was used to visualize a sum of these time stamps over one minute intervals in a graph.
             </p>
@@ -141,20 +136,24 @@
        <div class="container-fluid">
        <div class="row">
        <div class="col-sm-3">
-          <p>&copy; 2015 JustDevelopingStuff</p>
+          <p>&copy; 2016 JustDevelopingStuff</p>
           </div>
         <div class="col-sm-3">
             <ul class="list-unstyled">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="../about.html">About</a></li>
+                <li><a href="http://justdevelopingstuff.github.io/index.html">Home</a></li>
+                <li><a href="http://justdevelopingstuff.github.io/index.html#analysis">Projects</a></li>
+                <li><a href="http://justdevelopingstuff.github.io/index.html#about">About</a></li>
+                <li>
+                    <a href="https://github.com/justdevelopingstuff"><i class="fa fa-github-alt" aria-hidden="true"></i></a>&nbsp;
+                    <a href="https://www.youtube.com/channel/UCbrMu4eIIQEb_V6cKaVT3BQ"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                    </li>
             </ul>
         </div>
         <div class="col-sm-3">
            <ul class="list-unstyled">
-                    <li class="indent"><a href="euro-2016-tweet-analysis">Twitter Analysis</a></li>
-                    <li class="indent"><a href="TunaTech.html">Youtube</a></li>
-                <li class="indent"><a href="agenda-app.html">Agenda App</a></li></ul>
+                    <li class="indent"><a href="#games">Twitter Analysis</a></li>
+                    <li class="indent"><a href="http://justdevelopingstuff.github.io/index.html#cover">Youtube</a></li>
+                <li class="indent"><a href="http://justdevelopingstuff.github.io/index.html#app">Agenda App</a></li></ul>
         </div>
         <div class="col-sm-3"><p class="pull-sm-right"><a href="#">Back to top</a></p></div>
           </div></div>
