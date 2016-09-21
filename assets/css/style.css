@@ -134,16 +134,16 @@ footer a:hover {
 
 #other {
     overflow: hidden;
+    margin: 2rem 0;
 }
 
 #analysis, #other {
     background: #fff;
-    height: 60%;
+    height: 80%;
     display: flex;
     align-items: center;
     color: #000;
     text-align: left;
-    margin: 3rem 0;
 }
 
 #about {
