@@ -1,13 +1,13 @@
 Purpose
 =======
-Present JustDevelopingStuff's projects online and share links to our source code on GitHub.
+JustDevelopingStuff's projects and links to raw codes on GitHub.
 
 ###Creators
 Programmed and presented by the JDS (JustDevelopingStuff) Team. 
 
-### ToolsUsed
+### Tools Used
 Website: HTML/CSS3, Bootstrap4, Gimp, Adobe Photoshop & Illustrator, Brackets
-Soccer Tweets Analysis: R, ggplot, Python, Web scraping, JSON Parsing, HTML5/CSS3, Bootstrap.
+Soccer Tweets Analysis: tweepy, python, R, ggplot,  JSON Parsing, HTML5/CSS3, Bootstrap, Twitter API
 
 ### Work in Progress
 * Sentiment Analysis of all three games
